@@ -17,6 +17,7 @@ def read_wave(filename):
         frames = wav.readframes(n_frames)
 
     print(n_frames, sample_width, type(frames))
+    
     return frames
 
 
